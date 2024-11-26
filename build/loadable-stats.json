@@ -1,11 +1,12 @@
 {
   "name": "client",
-  "hash": "57fc1ae1a9c6b61c8aac",
+  "hash": "bfce1b2bdf6209138058",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "/Users/david.murphy/SourceCode/sfcc-composable-storefront-example-v3/build",
   "assetsByChunkName": {
     "main": [
-      "main.js"
+      "main.js",
+      "main.2fbde438fb698f8e20b7.hot-update.js"
     ],
     "blog-card": [
       "blog-card.js"
@@ -26,7 +27,8 @@
       "pages-home.js"
     ],
     "pages-marketing-pages": [
-      "pages-marketing-pages.js"
+      "pages-marketing-pages.js",
+      "pages-marketing-pages.2fbde438fb698f8e20b7.hot-update.js"
     ],
     "pages-blog-pages": [
       "pages-blog-pages.js"
@@ -78,7 +80,7 @@
     {
       "type": "asset",
       "name": "vendor.js",
-      "size": 5580462,
+      "size": 5563441,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -715,7 +717,7 @@
     {
       "type": "asset",
       "name": "pages-marketing-pages.js",
-      "size": 7830,
+      "size": 7829,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -723,6 +725,33 @@
         "javascriptModule": false,
         "related": {
           "sourceMap": "pages-marketing-pages.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-marketing-pages"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-marketing-pages"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "pages-marketing-pages.2fbde438fb698f8e20b7.hot-update.js",
+      "size": 7812,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "2fbde438fb698f8e20b7",
+        "related": {
+          "sourceMap": "pages-marketing-pages.2fbde438fb698f8e20b7.hot-update.js.map"
         }
       },
       "chunkNames": [
@@ -864,6 +893,33 @@
     },
     {
       "type": "asset",
+      "name": "main.2fbde438fb698f8e20b7.hot-update.js",
+      "size": 360,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "2fbde438fb698f8e20b7",
+        "related": {
+          "sourceMap": "main.2fbde438fb698f8e20b7.hot-update.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "_1242.js",
       "size": 284,
       "emitted": false,
@@ -884,6 +940,25 @@
         "_1242"
       ],
       "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.2fbde438fb698f8e20b7.hot-update.json",
+      "size": 52,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "2fbde438fb698f8e20b7"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
     }
   ],
   "namedChunkGroups": {
@@ -899,11 +974,14 @@
         },
         {
           "name": "main.js"
+        },
+        {
+          "name": "main.2fbde438fb698f8e20b7.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+      "filteredAuxiliaryAssets": 3,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1030,11 +1108,14 @@
       "assets": [
         {
           "name": "pages-marketing-pages.js"
+        },
+        {
+          "name": "pages-marketing-pages.2fbde438fb698f8e20b7.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 1,
+      "filteredAuxiliaryAssets": 2,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1388,7 +1469,8 @@
     {
       "id": "main",
       "files": [
-        "main.js"
+        "main.js",
+        "main.2fbde438fb698f8e20b7.hot-update.js"
       ]
     },
     {
@@ -1436,7 +1518,8 @@
     {
       "id": "pages-marketing-pages",
       "files": [
-        "pages-marketing-pages.js"
+        "pages-marketing-pages.js",
+        "pages-marketing-pages.2fbde438fb698f8e20b7.hot-update.js"
       ]
     },
     {

@@ -20,7 +20,7 @@ export const MarketingPage = () => {
         options: {
             model: builderConfig.pageModel,
             userAttributes: {urlPath},
-            enrich: false
+            enrich: true
         }
     })
     console.log('>>>> MarketingPage ')
