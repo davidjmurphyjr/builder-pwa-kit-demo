@@ -19,9 +19,13 @@ export const MarketingPage = () => {
         queryKey: ['Builder-Fetch-marketing', urlPath],
         options: {
             model: builderConfig.pageModel,
-            userAttributes: {urlPath}
+            userAttributes: {urlPath},
+            enrich: false
         }
     })
+    console.log('>>>> MarketingPage ')
+    console.log(JSON.stringify(data))
+    console.log('>>>> MarketingPage ')
 
     if (isLoading) {
         return (
